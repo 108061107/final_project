@@ -1,5 +1,5 @@
 # final_project
-*****Designed tasks: (1)follow a line (2)use apriltag to check bbcar's location (3)prevent bbcar from hitting a obstacle 
+*****Designed tasks: (1)follow a line (2)use apriltag to check bbcar's location (3)facing directly to the apriltag and also prevent bbcar from hitting a obstacle 
 (4)after avoiding the obstacle, steer bbcar to go to a destination by using ping to detect the distance between bbcar and the destination 
 (5)also send information with XBee at the start and end of each sub-task.*****\
 \
