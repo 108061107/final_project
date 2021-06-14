@@ -12,3 +12,18 @@
 利用xbee回傳pc告知已到達目的地。\
 \
 *****執行結果:*****\
+follow line:\
+![line1](https://user-images.githubusercontent.com/79581724/121883139-f6ad7d80-cd43-11eb-86d9-37f7eb4386ad.jpg)\
+![line2](https://user-images.githubusercontent.com/79581724/121883153-fad99b00-cd43-11eb-9c61-c1ed2be1b409.jpg)\
+![line3](https://user-images.githubusercontent.com/79581724/121883161-fca35e80-cd43-11eb-91be-1aa9a8d561a7.jpg)\
+prevent bbcar from hitting a obstacle:\
+![avoiding](https://user-images.githubusercontent.com/79581724/121883232-1349b580-cd44-11eb-86bc-c091e3544d22.jpg)\
+![avoiding2](https://user-images.githubusercontent.com/79581724/121883245-1644a600-cd44-11eb-82d6-3963b55e26f3.jpg)\
+facing directly to the apriltag:\
+![facing](https://user-images.githubusercontent.com/79581724/121883258-19d82d00-cd44-11eb-809c-e57e533b9ebc.jpg)\
+steer bbcar to go to a destination:\
+![go to destination](https://user-images.githubusercontent.com/79581724/121883396-468c4480-cd44-11eb-8edb-27e0d54482ae.jpg)\
+arrived:\
+![destination arrived](https://user-images.githubusercontent.com/79581724/121883408-48ee9e80-cd44-11eb-9789-39d9d183ef41.jpg)\
+send information with XBee at the start and end of each sub-task:\
+![xbee回傳結果](https://user-images.githubusercontent.com/79581724/121883786-c0243280-cd44-11eb-99bf-620e2700f3bd.png)
