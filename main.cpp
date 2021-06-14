@@ -96,7 +96,7 @@ int main(){
         car.turn(-200, -0.1);
         ThisThread::sleep_for(1200ms);
         car.goStraight(-200);
-        wait_us(1000*distance_R/speed*1000);
+        wait_us(1000000*distance_R/speed);
         car.turn(200, -0.1);
         ThisThread::sleep_for(800ms);
         car.stop();
@@ -116,12 +116,12 @@ int main(){
         xbee.write(buffer5, sizeof(buffer5));
 
         // printf("%f %f\n", data_tx_L, data_tz_L);
-        car.turn(120, -0.1);
-        ThisThread::sleep_for(1050ms);
+        car.turn(200, -0.1);
+        ThisThread::sleep_for(800ms);
         car.goStraight(-200);
-        wait_us(850*distance_L/speed*1000);
-        car.turn(-100, -0.1);
-        ThisThread::sleep_for(1800ms);
+        wait_us(1000000*distance_L/speed);
+        car.turn(-200, -0.1);
+        ThisThread::sleep_for(1200ms);
         car.stop();
         ThisThread::sleep_for(2s);
     }
